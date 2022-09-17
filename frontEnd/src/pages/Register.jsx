@@ -15,11 +15,11 @@ const Register = () => {
     })
 
 
-    // useEffect(()=>{
-    //   if(localStorage.getItem("user-token")){
-    //     navigate('/')
-    //   }
-    // },[])
+    useEffect(()=>{
+      if(localStorage.getItem("user-token")){
+        navigate('/')
+      }
+    },[])
 
 const handleSubmit = (event)=>{
 
